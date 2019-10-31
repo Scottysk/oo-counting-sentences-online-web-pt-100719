@@ -18,7 +18,5 @@ class String
     sentences = self.split(/\.|\?|!/).length
     puts sentences
     
-    
-    binding.pry
   end
 end
