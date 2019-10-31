@@ -14,7 +14,8 @@ class String
     self.end_with?("!")
   end
 
-  def count_sentences
-    sentences = self.split(" ").length
+    def count_sentences
+    sentences = self.split(/[\.!?] /).length
+    sentences
   end
 end
